@@ -250,7 +250,7 @@ task<void> ApplicationViewModel::HandleToggleAlwaysOnTop(float width, float heig
             {
                 float oldWidth = safe_cast<IPropertyValue ^>(localSettings->Values->GetView()->Lookup(WidthLocalSettings))->GetSingle();
                 float oldHeight = safe_cast<IPropertyValue ^>(localSettings->Values->GetView()->Lookup(HeightLocalSettings))->GetSingle();
-                compactOptions->CustomSize = Size(oldWidth, oldHeight);
+                compactOptions->CustomSize = Size(oldHeight, oldWidth);
             }
             else
             {
