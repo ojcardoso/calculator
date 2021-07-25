@@ -118,11 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AppName" xml:space="preserve">
-    <value>Calculator</value>
+    <value>Foolish Calculator</value>
     <comment>{@Appx_ShortDisplayName@}{StringCategory="Feature Title"} This is the title of the official application when published through Windows Store.</comment>
   </data>
   <data name="DevAppName" xml:space="preserve">
-    <value>Calculator [Dev]</value>
+    <value>Foolish Calculator [Dev]</value>
     <comment>{@Appx_ShortDisplayName@}{StringCategory="Feature Title"} This is the name of the application when built by a user via GitHub. We use a different name to make it easier for users to distinguish the apps when both this version and the Store version are installed on the same device.</comment>
   </data>
   <data name="AppStoreName" xml:space="preserve">
@@ -2702,19 +2702,19 @@
     <comment>Content of tooltip being displayed on AboutControlBackButton</comment>
   </data>
   <data name="AboutFlyoutEULA.Text" xml:space="preserve">
-    <value>Microsoft Software License Terms</value>
-    <comment>Displayed on a link to the Microsoft Software License Terms on the About panel</comment>
+    <value>Foolish Software License Terms</value>
+    <comment>Displayed on a link to the Foolish Software License Terms on the About panel</comment>
   </data>
   <data name="PreviewTag.Text" xml:space="preserve">
     <value>Preview</value>
     <comment>Label displayed next to upcoming features</comment>
   </data>  
   <data name="AboutControlPrivacyStatement.Text" xml:space="preserve">
-    <value>Microsoft Privacy Statement</value>
-    <comment>Displayed on a link to the Microsoft Privacy Statement on the About panel</comment>
+    <value>Foolish Privacy Statement</value>
+    <comment>Displayed on a link to the Foolish Privacy Statement on the About panel</comment>
   </data>
   <data name="AboutControlCopyright" xml:space="preserve">
-    <value>© %1 Microsoft. All rights reserved.</value>
+    <value>© %1 The Motley Fool. All rights reserved.</value>
     <comment>{Locked="%1"}. Copyright statement, displayed on the About panel. %1 = the current year (4 digits)</comment>
   </data>
   <data name="AboutFlyoutContribute" xml:space="preserve">
@@ -3476,8 +3476,8 @@
     <comment>{Locked='%1'} Format string for the accessible name of a Calculator menu category header, used by screen readers. "%1" is the pluralized category name, e.g. Calculators, Converters. An example when formatted is "Calculators category".</comment>
   </data>
   <data name="AboutControlServicesAgreement.Text" xml:space="preserve">
-    <value>Microsoft Services Agreement</value>
-    <comment>Displayed on a link to the Microsoft Services Agreement in the about this app information</comment>
+    <value>Foolish Services Agreement</value>
+    <comment>Displayed on a link to the Foolish Services Agreement in the about this app information</comment>
   </data>
   <data name="UnitAbbreviation_Pyeong" xml:space="preserve">
     <value>Pyeong</value>

@@ -41,26 +41,22 @@
                     <Run x:Name="AboutControlCopyrightRun"/>
                 </Paragraph>
             </RichTextBlock>
-            <HyperlinkButton x:Name="AboutFlyoutEULA"
-                             Margin="12,0,12,6"
-                             NavigateUri="https://go.microsoft.com/fwlink/?LinkID=529064"
-                             ToolTipService.ToolTip="https://go.microsoft.com/fwlink/?LinkID=529064">
+            <HyperlinkButton x:Name="AboutFlyoutEULA" Margin="12,0,12,6">
                 <TextBlock x:Uid="AboutFlyoutEULA"
                            FontSize="{ThemeResource BodyFontSize}"
+                           Text="Foolish Software License Terms"
                            TextWrapping="Wrap"/>
             </HyperlinkButton>
-            <HyperlinkButton Margin="12,0,12,6"
-                             NavigateUri="https://go.microsoft.com/fwlink/?LinkID=822631"
-                             ToolTipService.ToolTip="https://go.microsoft.com/fwlink/?LinkID=822631">
+            <HyperlinkButton Margin="12,0,12,6">
                 <TextBlock x:Uid="AboutControlServicesAgreement"
                            FontSize="{ThemeResource BodyFontSize}"
+                           Text="Foolish Services Agreement"
                            TextWrapping="Wrap"/>
             </HyperlinkButton>
-            <HyperlinkButton Margin="12,0,12,6"
-                             NavigateUri="https://go.microsoft.com/fwlink/?LinkID=521839"
-                             ToolTipService.ToolTip="https://go.microsoft.com/fwlink/?LinkID=521839">
+            <HyperlinkButton Margin="12,0,12,6">
                 <TextBlock x:Uid="AboutControlPrivacyStatement"
                            FontSize="{ThemeResource BodyFontSize}"
+                           Text="Foolish Privacy Statement"
                            TextWrapping="Wrap"/>
             </HyperlinkButton>
             <Button x:Name="FeedbackButton"
