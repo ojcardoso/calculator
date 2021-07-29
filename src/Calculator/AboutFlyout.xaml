@@ -41,19 +41,21 @@
                     <Run x:Name="AboutControlCopyrightRun"/>
                 </Paragraph>
             </RichTextBlock>
-            <HyperlinkButton x:Name="AboutFlyoutEULA" Margin="12,0,12,6">
+            <HyperlinkButton x:Name="AboutFlyoutEULA"
+                             Margin="12,0,12,6"
+                             NavigateUri="https://www.fool.com">
                 <TextBlock x:Uid="AboutFlyoutEULA"
                            FontSize="{ThemeResource BodyFontSize}"
                            Text="Foolish Software License Terms"
                            TextWrapping="Wrap"/>
             </HyperlinkButton>
-            <HyperlinkButton Margin="12,0,12,6">
+            <HyperlinkButton Margin="12,0,12,6" NavigateUri="https://www.fool.com">
                 <TextBlock x:Uid="AboutControlServicesAgreement"
                            FontSize="{ThemeResource BodyFontSize}"
                            Text="Foolish Services Agreement"
                            TextWrapping="Wrap"/>
             </HyperlinkButton>
-            <HyperlinkButton Margin="12,0,12,6">
+            <HyperlinkButton Margin="12,0,12,6" NavigateUri="https://www.fool.com">
                 <TextBlock x:Uid="AboutControlPrivacyStatement"
                            FontSize="{ThemeResource BodyFontSize}"
                            Text="Foolish Privacy Statement"
